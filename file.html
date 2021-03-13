@@ -1,0 +1,4712 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Flavio Copes</title>
+<meta name="description" content="Speed up your coding skills 🚀">
+<meta name="author" content="Flavio Copes">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:title" content="Flavio Copes">
+<meta property="og:description" content="Speed up your coding skills 🚀">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://flaviocopes.com/">
+  <meta property="og:image" content="https://flaviocopes.com/img/avatar.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+<link rel="alternate" type="application/rss+xml" title="flaviocopes.com" href="/index.xml">
+
+<style>
+code,kbd,pre,samp{font-family:'Inconsolata', monospace}button,hr,input{overflow:visible}img,legend{max-width:100%}audio,canvas,progress,video{display:inline-block}progress,sub,sup{vertical-align:baseline}[type=checkbox],[type=radio],legend{padding:0;box-sizing:border-box}ol,pre,ul{margin:0 0 20px}.hljs,pre{overflow-x:auto}.hljs,article,aside,blockquote p,details,figcaption,figure,footer,header,img,main,menu,nav,section{display:block}#wrapper:after,.blog-description:after,.clearfix:after,.post-date:after{content:""}.container,.post-stub,sub,sup{position:relative}.book-landing-with-cover img{box-shadow:5px 5px 8px grey}html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}h1{margin:.67em 0}h1,h2,h3,h4,h5,h6{margin-bottom:20px}figure{margin:1em 40px}hr{box-sizing:content-box;height:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0}sub{bottom:-.25em}sup{top:-.5em}audio:not([controls]){display:none;height:0}img{border-style:none;width:auto}.container,table{width:100%}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:'Avenir', monospace;font-size:100%;line-height:1.15;margin:0}.footer,.site-header,textarea{overflow:auto}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:ButtonText dotted 1px}fieldset{padding:.35em .75em .625em}legend{color:inherit;display:table;white-space:normal}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}ol,p,ul{line-height:1.5em}summary{display:list-item}[hidden],template{display:none}.hljs{padding:.5em;color:#333;-webkit-text-size-adjust:none}pre,table td{padding:10px}.diff .hljs-header,.hljs-comment{color:#998;font-style:italic}.css .rule .hljs-keyword,.hljs-keyword,.hljs-request,.hljs-status,.hljs-subst,.hljs-winutils,.nginx .hljs-title{color:#333;font-weight:700}.hljs-hexcolor,.hljs-number,.ruby .hljs-constant{color:teal}.hljs-doctag,.hljs-string,.hljs-tag .hljs-value,.tex .hljs-formula{color:#d14}.hljs-id,.hljs-title,.scss .hljs-preprocessor{color:#900;font-weight:700}.hljs-list .hljs-keyword,.hljs-subst{font-weight:400}.hljs-class .hljs-title,.hljs-type,.tex .hljs-command,.vhdl .hljs-literal{color:#458;font-weight:700}.django .hljs-tag .hljs-keyword,.hljs-rule .hljs-property,.hljs-tag,.hljs-tag .hljs-title{color:navy;font-weight:400}.hljs-attribute,.hljs-name,.hljs-variable,.lisp .hljs-body{color:teal}.hljs-regexp{color:#009926}.clojure .hljs-keyword,.hljs-prompt,.hljs-symbol,.lisp .hljs-keyword,.ruby .hljs-symbol .hljs-string,.scheme .hljs-keyword,.tex .hljs-special{color:#f03838}.hljs-built_in{color:#0086b3}.hljs-cdata,.hljs-doctype,.hljs-pi,.hljs-pragma,.hljs-preprocessor,.hljs-shebang{color:#999;font-weight:700}h2,h3{padding-top:40px;font-weight:900}.hljs-deletion{background:#fdd}.hljs-addition{background:#dfd}.diff .hljs-change{background:#0086b3}.hljs-chunk{color:#aaa}a,a code{color:#00a0fc}body,html{height:100%}body{margin:0;background:#fefefe;color:#424242;font-family: 'Avenir', -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+font-size:20px}h1{font-size:35px;}h2{font-size:28px}h3{font-size:26px}h4{font-size:24px;margin-bottom:18px}h5{font-size:16px;margin-bottom:15px}h6{font-size:14px;margin-bottom:12px}p{margin:0 0 30px}a{text-decoration:none}ol ol,ol ul,ul ol,ul ul{margin:10px 10px 12px 20px}ol li,ul li{margin:0 0 2px}ol li:last-of-type,ul li:last-of-type{margin-bottom:0}blockquote{border-left:1px dotted #00a0fc;margin:40px 0;padding:5px 30px}blockquote p{color:#aeadad;font-style:italic;margin:0;width:100%}pre{background:#f1f0ea;border:1px solid #dddbcc;border-radius:3px;font-size:16px;margin-bottom:30px!important}pre code{padding: 0;white-space: pre-wrap;}code{padding:2px 4px;font-size:100%;color:#444;background-color:#f1f0ea;border-radius:4px}hr{border:none;border-bottom:1px solid #333;margin:45px 0}.fluid-width-video-wrapper,table{margin-bottom:40px}table tbody>tr:nth-child(odd)>td,table tbody>tr:nth-child(odd)>th{background-color:#f7f7f3}table th{padding:0 10px 10px;text-align:left}.error,.post-header,.site-header{text-align:center}table tr{border-bottom:1px dotted #aeadad}::selection{background:#fff5b8;color:#000;display:block}::-moz-selection{background:#fff5b8;color:#000;display:block}.hidden{text-indent:-9999px;visibility:hidden;display:none}.clearfix:after{display:table;clear:both}.container{margin:0 auto;max-width:889px}#wrapper{height:auto;min-height:100%;margin-bottom:-265px}#wrapper:after{display:block;height:265px}.button{background:#303030;border:none;border-radius:3px;color:#fefefe;font-size:14px;font-weight:700;padding:10px 12px}.button-square,.button:hover{background:#00a0fc}.button-square{color:#fff;float:left;font-size:17px;margin:0 0 0 10px;padding:3px 8px 4px}.button-square:hover{background:#303030}.comments{margin-top:10px}.site-header{padding:40px 0 0}.site-title-wrapper{display:table;margin:0 auto}.site-title{float:left;font-size:14px;font-weight:600;margin:0}.site-title a{float:left;background:#00a0fc;color:#fefefe;padding:5px 10px 6px}.site-title a:hover{background:#303030}.site-logo{display:block}.site-logo img{margin:0}.site-nav{list-style:none;margin:28px 0 10px;padding:0}.site-nav-item{display:inline-block;font-size:14px;font-weight:700;margin:0 10px}.site-nav-item a:hover{color:#424242}#latest-post{display:none}.post-container{margin:0 40px}.post-header{border-bottom:1px solid #333;margin:0 0 50px;padding:0 0 0}.page-title,.post-title{font-size:55px;font-weight:900;margin:22px 0;text-align:left;}.page-title{margin:15px 40px}.blog-description,.post-date{color:#aeadad;font-size:14px;font-weight:600;line-height:1;margin:25px 0 0;text-align:left}.center,.footer-copyright,.share,.share a{text-align:center}.blog-description a,.post-date a{color:#aeadad}.blog-description a:hover,.post-date a:hover{color:#00a0fc}.blog-description:after,.post-date:after{display:block;margin:40px auto 0;width:100px}.post-content a{border-bottom:1px dotted #00a0fc;padding:0 0 2px}.post-content:last-child{margin-bottom:0}.post-content .footnote{border-spacing:0;margin-bottom:0}.post-content .footnote .label+td{width:100%}.post-content .gist tr{border-bottom:0}.post-content img{width:auto;margin:0 auto;max-width:100%}.post-tags,.share{color:#aeadad;font-size:14px}.post-tags span,.share span{font-weight:600}.post-tags{float:left;margin:3px 0 0}.post-tags a:hover{color:#303030}.share{margin:0 auto}.share a{background:#00a0fc;color:#fff;display:inline-block;font-size:30px;margin-left:5px;padding:5px 0 4px;width:50px}.share a:hover{background:#303030}.post-navigation{display:table;margin:70px auto 100px}.newer-posts,.older-posts{float:left;background:#00a0fc;color:#fefefe;font-size:14px;font-weight:600;margin:0 5px;padding:5px 10px 6px;text-transform:uppercase}.newer-posts:hover,.older-posts:hover{background:#303030}.page-number{display:none}.post-list{list-style:none;padding:0;width:100%}.post-stub{border-bottom:1px dotted #303030;margin:0;display:block;padding:20px 12px}.post-stub a{color:#424242}.post-stub:hover{background:#fcf5f5;color:#00a0fc}.post-stub:hover .post-stub-tag{background:#00a0fc}.post-stub-tag{background:#303030;border-radius:3px;color:#fff;float:right;font-size:10px;margin:7px 0 0;padding:0 5px}.post-stub-title{font-size:21px;display:inline-block;margin:0;font-weight:900}.post-stub-description{display:inline-block;margin:0;text-transform:none}.post-stub-date{text-align: right;font-family:'Inconsolata', monospace;display:inline-block;font-size:18px;padding-top: 8px;}.next-posts-link a,.previous-posts-link a{display:block;padding:8px 11px}.footer{background:#303030;color:#d3d3d3;height:265px;margin-top:0}.footer .site-title-wrapper{margin:80px auto 35px}.footer .button-square:hover,.footer .site-title a:hover{background:#121212}.footer-copyright{color:#656565;font-size:14px;margin:0;text-transform:uppercase}.footer-copyright a{color:#656565;font-weight:700}.footer-copyright a:hover{color:#fefefe}li.post-stub{display: flex; flex-direction: row; justify-content: space-between}.date-tag{display: flex; flex-direction: column}@media only screen and (max-width:800px){.post-stub-tag{display:none}}@media only screen and (max-width:600px){.page-title,.post-header p,.post-title{word-wrap:break-word;overflow-wrap:break-word}h1,h2,ol,p,ul{margin-bottom:20px;word-break: break-word;}blockquote,img{margin:30px 0}pre{margin:20px 0}hr{margin:35px 0}.site-header{padding-top:40px}.site-title{float:none;margin-bottom:15px}.site-title a{float:none}.site-title+.button-square{margin-left:0}.site-nav-item{display:block;margin:15px 0}.post-header{padding-bottom:20px}.page-title,.post-title{font-size:42px;margin-top:5px}.blog-description,.post-date{margin-top:20px}.blog-description:after,.blog-description:before,.post-date:after,.post-date:before{margin-top:30px}.post-list,.share{margin-top:20px}.post-stub-title{display:block}.post-stub-date:before{content:"";display:block}.post-container,.post-list{margin-right:10px;margin-left:10px}.post-tags{width:100%}.post-stub a,.post-stub a:hover{padding-top:12px;padding-bottom:12px}.share{float:left}.share a{margin:0 5px 0 0}.footer{margin-top:0}.footer .site-title-wrapper{text-align:center}.footer .button-jump-top{clear:both;display:inline-block;float:none}}@media only screen and (max-width:450px){.date-tag{display:block;padding-bottom:20px}.post-stub-date{padding-top:15px}li.post-stub{display:block}.site-header{padding-top:40px}.page-title,.post-title{font-size:48px;line-height:1.2;word-wrap:break-word;overflow-wrap:break-word}.blog-description,.post-date{line-height:1.6;margin-top:10px}.blog-description:after,.blog-description:before,.post-date:after,.post-date:before{margin-top:20px}.post-container,aside,.post-list{margin-right:4px;margin-left:4px}.footer-copyright{padding:0 10px}}.center{margin:0 auto}.book-container-bottom{padding-top:40px;text-align:center;margin:0 auto;max-width:600px;padding-bottom:80px}@media only screen and (max-width:782px){#container{padding-top:0}}.gumroad-button img{width:250px;margin:0 auto}p.post-description{font-size:1.2rem}h2.post-description{padding-top:30px;font-size:23px;font-weight:300;text-align:left;line-height:1.8rem;padding-bottom:30px;letter-spacing:.5px;text-transform:none}code[class*=language-],pre[class*=language-]{white-space:pre-wrap!important}#cookie-bar{border-top:none!important}.book-wrapper{display:grid;grid-template-columns:70% 30%}.book-wrapper .book-wrapper-text{margin-top:70px;text-align:left}.home-section-col,.post-header.homepage .post-title{text-align:center}.book-wrapper img{width:200px;box-shadow:2px 2px 2px 2px #ccc}@media only screen and (max-width:750px){.post-title{font-size:65px}}@media only screen and (max-width:590px){.post-title,h2{font-size:45px}}@media only screen and (max-width:400px){.book-wrapper{display:block}.book-wrapper img{display:none}h2{font-size:25px}.homepage .post-title{font-size:50px}}.post-list > a:visited{color:gray}.book-banner-fixed{position:absolute;width:100%;text-align:center;background-color:#00a0fc;font-weight:500;padding-bottom:20px;padding-top:20px;top:0;z-index:10}@media only screen and (max-width:590px){.book-banner-fixed{display:none}}.home-section-col,aside{display:block; padding-top:30px}.home-section-col ul,aside ul{list-style-type:none;padding-left:0}.home-section-col ul li,aside ul li{font-size:1.2rem}.home-section-col ul li:nth-child(even),.home-section-col ul li a,aside ul li a{color:#424240;text-decoration:underline;}.home-section-col ul li a.active,aside ul li a.active{background-color:rgba(255,255,0,.27)}.home-section-col{width:48.2%}@media only screen and (max-width:400px){.home-section-col{display:block;width:100%}.formkit-header{font-size:25px!important}}.sections-wrapper{width:100%;display:flex;flex-flow:row wrap;justify-content:space-between}.single-post-container.has-sidebar{display:grid;grid-template-columns:220px auto;grid-column-gap:45px;grid-template-areas:"sidebar main";max-width:1200px}.single-post-container.has-sidebar article{grid-area:main}.single-post-container.has-sidebar aside{grid-area:sidebar;padding-left:10px;font-size: 1rem;}@media only screen and (max-width:950px){.single-post-container.has-sidebar{grid-column-gap:25px;grid-template-columns:220px auto}}@media only screen and (max-width:900px){aside{margin: 0 40px; padding-left: 0px!important;}.single-post-container.has-sidebar{grid-template-columns:auto;grid-template-areas:"main" "sidebar"}.single-post-container.has-sidebar aside{padding-right:5px}}.single-post-container{margin-top:50px;padding-left:15px;padding-right:15px;box-sizing:border-box}@media only screen and (max-width:500px){aside{margin: 0 0px!important; padding-left: 10px!important;}}.ais-hits--item{padding:10px}.ais-hits--item:nth-child(even){background:rgba(0,160,252,.1)}.ais-hits--item em{font-weight:700}.home-section-col a,.home-section-col a:visited{color:#424242}.home-section-col section{border:1px solid #ccc;padding:30px;height:150px;margin-bottom:50px}.home-section-col h2{padding-top:0}.tags{float:left;padding-top:10px}.tags .button{display:block;padding:8px;background-color:#7fffd4;margin-left:0px;float:right}.tags .cli{background-color:#000; color: #fff!important}.tags .node{background-color:#026e00; color: #fff!important}.tags .express{background-color:#b565a7}.tags .git{background-color:#dd4132;color: #fff!important}.tags .network{background-color:#6b5b95; color: #fff!important}.tags .browser{background-color:#5b5ea6;color: #fff!important}.tags .pwa{background-color:#6f9fd8}.tags .react{background-color:#282c34; color: #61dafb!important}.graphql{background-color:white!important; border: 1px solid gray; color: #E10098!important}.tags .svelte{background-color:#ff3e00;color: #fff!important} .tags .vue{background-color:#00a591;color: #fff!important}.tags .js{background-color:#ecdb54; color: #000!important}.tags .cookbook{background-color:#eadedb;color:#333!important}.tags .css{background-color:#bc70a4;color: #fff;}.tags .devtools{background-color:#ce3175;color: #fff!important}.tags .lab{background-color:#95dee3; color:#000!important}.tags .services{background-color:#f7786b}.tags .libraries{background-color:#dd4132}.tags .go{background-color:#bfd641; color:#000!important}.tags .html,.tags .softskills{background-color:#f2552c}.post-list h4{font-size:30px;padding-top:10px;padding-bottom:10px;line-height: 1.2;}.footer-tags{margin-bottom:50px;float:none; padding-left:0}.footer-tags .button{float:none;display:inline-block;margin-top:18px}.tags-list h1{padding-left:12px;font-size:38px}
+aside input {padding: 5px}
+@media (prefers-color-scheme: dark) {
+  body aside input {border: 1px solid #333}
+  body, body input{background-color: rgb(30,34,39); color:#fff}
+  body .post-stub a, body .home-section-col ul li:nth-child(even), body .home-section-col ul li a, body aside ul li a {color:#fff}
+  body .post-stub:hover, body :not(pre)>code[class*=language-], body pre[class*=language-], body pre { background: #282c34;}
+  body code[class*=language-], body pre[class*=language-] {text-shadow:none;color:#fff}
+  body .language-css .token.string, body .style .token.string, body .token.entity, body .token.operator, body .token.url {background: none}
+  body table tbody>tr:nth-child(odd)>td, body table tbody>tr:nth-child(odd)>th {background: #282c34}
+  body .token.attr-name, body .token.builtin, body .token.char, body .token.inserted, body .token.selector, body .token.string { color:#ecdb54}
+}
+.rwd-video { height: 0;overflow: hidden;padding-bottom: 56.25%;padding-top: 30px;position: relative;}
+.rwd-video iframe,.rwd-video object,.rwd-video embed {height: 100%;left: 0;position: absolute;top: 0;width: 100%;}
+@media only screen and (max-width: 400px) { .post-list { margin-right: 0;margin-left: 0; } }
+@media only screen and (max-width: 400px){pre{padding:0!important;font-size:12px}.single-post-container{padding-left:8px;padding-right:8px}}
+@media print { body, p, h1, h2, h3, h4, ul, li { color: black; }p, ul ,li {  font-size: 0.9rem;}aside {  display: none;}.single-post-container.has-sidebar {  display: block;}a:after {  content:" (https://flaviocopes.com" attr(href) ") ";}a[href*='//']:after {  content:" (" attr(href) ") ";}}
+#topbar { text-align:center; padding: 5px; color: white; background-color: #3574d4; position: fixed;top: 0;width: 100%;}
+@media only screen and (max-width: 800px) { .post-title { margin-top: 50px } }#carbonads { display: block;  overflow: hidden;  text-align: left;  line-height: 1.5;padding-bottom: 50px;}#carbonads a { color: inherit;}#carbonads a:hover {  color: inherit;}#carbonads span {  display: block;  overflow: hidden;}.carbon-img {  display: block;  margin: 0 auto 8px;  line-height: 1;}.carbon-text {  display: block;  font-size: 16px;  margin-bottom: 8px;}.carbon-poweredby {  text-transform: uppercase;  display: block;  font-size: 10px;  letter-spacing: 1px;  line-height: 1;}
+.custom-slant .native-banner{display:flex;flex-direction:column;overflow:hidden;margin-bottom:36px;text-decoration:none;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;align-items:left}.custom-slant .native-sponsor-container{overflow:hidden;border-top-left-radius:4px}.custom-slant .native-sponsor{display:inline-flex;margin-bottom:20px;padding:0 10px;background-image:linear-gradient(135deg,#3574d4,#3574d4cc);color:#fff;text-transform:uppercase;letter-spacing:.5px;font-size:10px;transform:skewX(-22deg);transform-origin:top left;pointer-events:none;align-items:center}.custom-slant .native-sponsor:after{position:absolute;top:4px;right:5px;width:3px;height:calc(100% - 8px);background-color:#fff;content:""}.custom-slant .native-sponsor>div{padding:8px 10px;transform:skewX(22deg)}.custom-slant .native-company{border-left:2px solid #fff}.custom-slant .native-main{display:flex}.custom-slant .native-logo{display:block;box-sizing:border-box;margin-right:20px;padding:20px 30px;width:180px;height:100%;border-radius:8px}.custom-slant .native-text{display:flex;flex-direction:column;color:#0d0d0d;line-height:1.4;align-items:flex-start}.custom-slant .native-tagline{font-weight:600;font-size:20px}.custom-slant .native-description{margin-bottom:6px;font-size:16px}.custom-slant .native-cta{display:flex;padding:8px 14px;border-radius:4px;background-color:#3574d4;color:#fff;text-transform:uppercase;letter-spacing:.4px;font-weight:600;font-size:12px;margin-top: 4px;}
+@media only screen and (max-width:500px){.native-main{ flex-direction: column;} .custom-slant .native-logo {margin: 0 auto;margin-bottom: 10px;padding: 0px 10px; }}
+@media only screen and (min-width:500px){.native-text{ padding-left: 20px;margin-top: -4px;}}
+.native-logo{margin-left: 0px!important}
+@media (prefers-color-scheme: dark) {.custom-slant .native-text { color: #fff}.custom-slant .native-banner {border: none}.courses-promo img {filter: invert(90%)}}
+.page-with-tweets ul { list-style-type: none; padding: 50px;}
+.page-with-tweets li { padding: 10px;}
+.custom-slant a {border-bottom: none;}
+p.inline, p.inline + p, p.inline .MathJax { display: inline!important }
+</style>
+
+
+
+<link href="/index.xml" rel="alternate" type="application/rss+xml">
+
+<script type="text/javascript" src="https://m.servedby-buysellads.com/monetization.js"></script>
+
+
+
+
+</head>
+<body>
+  <div id="wrapper">
+    <div id="container">
+<div class="container single-post-container has-sidebar">
+  <article class="post-container">
+    
+
+    
+
+    <ol class="post-list">
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-typedef/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The typedef keyword in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to the typedef keyword in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-26 ">Feb 26, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-global-variables/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">C Global Variables</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C Global Variables</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-25 ">Feb 25, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-static-variables/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Static variables in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to work with static variables in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-24 ">Feb 24, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-nesting-functions/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Can you nest functions in C?</h4>
+    <br>
+    <p class="post-description" itemprop="name">Find out if you can nest functions in C, or not!</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-23 ">Feb 23, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-variables-scope/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Scope of variables in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn what scope is, and how it works in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-22 ">Feb 22, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-parameters-command-line/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to access the command line parameters in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn how to access the command line parameters in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-21 ">Feb 21, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-conversion-specifiers/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">C conversion specifiers and modifiers</h4>
+    <br>
+    <p class="post-description" itemprop="name">A handy reference to C conversion specifiers and modifiers</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-20 ">Feb 20, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-print-percentage/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to print the percentage character using `printf()` in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn how to print the percentage character using `printf()` in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-19 ">Feb 19, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-check-char-value/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to check a character value in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn how to check a character value in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-18 ">Feb 18, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-error-implicit-declare-library-function/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to solve the implicitly declaring library function warning in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn how to solve the implicitly declaring library function warning in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-17 ">Feb 17, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-return-string/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to return string from a C function</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn how to return a string from a C function</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-16 ">Feb 16, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-quotes/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Double quotes vs single quotes in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to work with quotes in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-15 ">Feb 15, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-input-output/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Basic I/O concepts in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to perform input/output using printf and scanf in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-14 ">Feb 14, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-null/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to use NULL in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">A brief guide at null pointers in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-13 ">Feb 13, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-functions/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to C Functions</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C Functions</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-12 ">Feb 12, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-boolean/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Booleans in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to how to use booleans in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-11 ">Feb 11, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-loop-array/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Looping through an array with C</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to loop through an array with C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-10 ">Feb 10, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-pointers/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to C Pointers</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C Pointers</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-09 ">Feb 09, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-string-length/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to find the length of a string in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">A practical tutorial on how to find the length of a string in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-08 ">Feb 08, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-strings/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to C Strings</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C Strings</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-07 ">Feb 07, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-array-length/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to determine the length of an array in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to determine the length of an array in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-06 ">Feb 06, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-arrays/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to C Arrays</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C Arrays</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-05 ">Feb 05, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-loops/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to work with loops in C</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C for, while and do-while loops</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-04 ">Feb 04, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-conditionals/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">C Conditionals</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C Conditionals: if/else and switch</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-03 ">Feb 03, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-operators/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">C Operators</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to C Operators and Operator precedence</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-02 ">Feb 02, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-constants/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">C Constants</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to dealing with constants in C</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-02-01 ">Feb 01, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-variables-types/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">C Variables and types</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to dealing with variables in C, and the basic types</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-31 ">Jan 31, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/c-introduction/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to the C Programming Language</h4>
+    <br>
+    <p class="post-description" itemprop="name">Get started with C, a fundamental programming language</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-30 ">Jan 30, 2020</time>
+
+    <div class="tags">
+      
+      <a href="/tags/c-language/" class="button browser">C</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/the-fire/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Dealing with the fire</h4>
+    <br>
+    <p class="post-description" itemprop="name">The fire is awesome when it’s there, otherwise it would be impossible for me to do creative and productive work without burning out. What&#39;s the fire?</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-29 ">Jan 29, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/blog-seo/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">I wrote 1 blog post every day for 2 years. Here&#39;s 5 things I learned about SEO</h4>
+    <br>
+    <p class="post-description" itemprop="name">5 SEO lessons learned by writing 1 blog post every day for 2 years</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-28 ">Jan 28, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/milli-micro-nano-pico/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Milli Micro Nano Pico</h4>
+    <br>
+    <p class="post-description" itemprop="name">With electronics and time measurements, you will find those terms used often: milli, micro, nano, pico. What do they mean?</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-27 ">Jan 27, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      <a href="/tags/electronics/" class="button vue">Electronics</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/non-printable-ascii-characters/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Non-printable ASCII characters list</h4>
+    <br>
+    <p class="post-description" itemprop="name">A table containing all the non-printable ASCII characters</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-26 ">Jan 26, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      <a href="/tags/computers/" class="button react">Computers</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/printable-ascii-characters/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Printable ASCII characters list</h4>
+    <br>
+    <p class="post-description" itemprop="name">A table containing all the printable ASCII characters</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-25 ">Jan 25, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      <a href="/tags/computers/" class="button react">Computers</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/arduino-programming-language/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The Arduino Programming Language</h4>
+    <br>
+    <p class="post-description" itemprop="name">How can you write programs for your Arduino board? Arduino, natively, supports a language that we call the Arduino Programming Language, or Arduino Language.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-24 ">Jan 24, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      <a href="/tags/electronics/" class="button vue">Electronics</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/arduino-board-uno-wifi-rev-2/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The Arduino Uno WiFi rev 2 board</h4>
+    <br>
+    <p class="post-description" itemprop="name">The Arduino Uno is a microcontroller board. It is currently the reference version of Arduino, and the latest version of an official Arduino device is the Arduino Uno WiFi rev 2.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-23 ">Jan 23, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      <a href="/tags/electronics/" class="button vue">Electronics</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/arduino-board-uno-rev-3/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The Arduino Uno rev 3 board</h4>
+    <br>
+    <p class="post-description" itemprop="name">This is the reference Arduino version for prototyping, as lots and lots of tutorials use this version of Arduino as their reference board.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-22 ">Jan 22, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      <a href="/tags/electronics/" class="button vue">Electronics</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/arduino-introduction/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">An introduction to Arduino</h4>
+    <br>
+    <p class="post-description" itemprop="name">An overview of the Arduino electronics platform</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-21 ">Jan 21, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      <a href="/tags/electronics/" class="button vue">Electronics</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/coding-is-art/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Coding is an art</h4>
+    <br>
+    <p class="post-description" itemprop="name">Coding is an art, a creative craft, a joyful thing</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-20 ">Jan 20, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/block-distractions-ublock-origin/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to block distractions using uBlock Origin</h4>
+    <br>
+    <p class="post-description" itemprop="name">A trick I learned to block distractions using uBlock Origin</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-19 ">Jan 19, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/axios-send-authorization-header/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to send the authorization header using Axios</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn how to send the authorization header using Axios</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-18 ">Jan 18, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/js/" class="button js">JavaScript</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/fix-xcrun-error-invalid-active-developer-path/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to fix the xcrun invalid active developer path error in macOS</h4>
+    <br>
+    <p class="post-description" itemprop="name">Quickly solve this annoying problem with the command line</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-17 ">Jan 17, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/cli/" class="button cli">CLI</a>
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/mysql-user-permissions/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">MySQL User Permissions</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick introduction at User Permissions in a MySQL Database</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-16 ">Jan 16, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/sqlite-user-permissions/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">SQLite User Permissions</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick introduction to user permissions in SQLite</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-15 ">Jan 15, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/converting-decimal-to-binary/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Converting Numbers from Decimal to Binary</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to quickly convert a number expressed in the Decimal Number System to the Binary Number System</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-14 ">Jan 14, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      <a href="/tags/computers/" class="button react">Computers</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/binary-number-system/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The Binary Number System</h4>
+    <br>
+    <p class="post-description" itemprop="name">Introduction to the Binary Number System</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-13 ">Jan 13, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      <a href="/tags/computers/" class="button react">Computers</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/write-what-you-dont-know/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Write what you don&#39;t know</h4>
+    <br>
+    <p class="post-description" itemprop="name">Some thoughts on writing about things you don&#39;t know (yet)</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-12 ">Jan 12, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/gpl-license/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The GPL License</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick overview of the GPL License</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-11 ">Jan 11, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/decimal-number-system/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The Decimal Number System</h4>
+    <br>
+    <p class="post-description" itemprop="name">Introduction to the Decimal Number System</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-10 ">Jan 10, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      <a href="/tags/computers/" class="button react">Computers</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/finite-state-machines/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Finite State Machines</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick overview of what State Machines are, with simple examples</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-09 ">Jan 09, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      <a href="/tags/computers/" class="button react">Computers</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-vs-mysql/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Postgres vs MySQL, a comparison</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick comparison between PostgreSQL and MySQL</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-08 ">Jan 08, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/start-blog-with-hugo/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to start a blog using Hugo</h4>
+    <br>
+    <p class="post-description" itemprop="name">A detailed tutorial to start a new blog using Hugo from zero to deployment</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-07 ">Jan 07, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/mysql-how-to-create-user/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Creating a user on MySQL</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick step by step guide at how to create a user on MySQL</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-06 ">Jan 06, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/mysql-how-to-install/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to install MySQL on macOS</h4>
+    <br>
+    <p class="post-description" itemprop="name">Step by step instructions to install MySQL on macOS using Homebrew</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-05 ">Jan 05, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-how-to-list-tables-database/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to list tables in the current database using Postgres</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick explanation of how to list tables in the current database inside the `psql` tool in PostgreSQL, or using SQL</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-04 ">Jan 04, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-how-to-list-all-databases/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to list all databases using Postgres</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick explanation of how to list all databases inside the `psql` tool in PostgreSQL, or using SQL</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-03 ">Jan 03, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-how-to-switch-database/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to switch database using Postgres</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick explanation of how to switch between databases inside the `psql` tool in PostgreSQL</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-02 ">Jan 02, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-how-to-list-all-users/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to list all users in Postgres</h4>
+    <br>
+    <p class="post-description" itemprop="name">Find out how to get a list of all the users present in a Postgres database, and their permissions</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2020-01-01 ">Jan 01, 2020</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/a-decade-of-javascript/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">This decade in JavaScript</h4>
+    <br>
+    <p class="post-description" itemprop="name">Looking back at the last decade in JavaScript / Web, it&#39;s been a wild ride.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-31 ">Dec 31, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/js/" class="button js">JavaScript</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-user-permissions/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Postgres User Permissions</h4>
+    <br>
+    <p class="post-description" itemprop="name">In this tutorial I will explain how to managing users and permissions in Postgres.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-30 ">Dec 30, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-introduction/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to Postgres</h4>
+    <br>
+    <p class="post-description" itemprop="name">A high level overview of the PostgreSQL database</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-29 ">Dec 29, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/sqlite-how-to-install/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to install SQLite on macOS</h4>
+    <br>
+    <p class="post-description" itemprop="name">In this tutorial I want to explain what you need to do to install SQLite.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-28 ">Dec 28, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/homebrew/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">A practical guide to Homebrew</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to the popular Homebrew package manager</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-27 ">Dec 27, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/cli/" class="button cli">CLI</a>
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/do-you-need-a-database/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Do you always need a database for your app?</h4>
+    <br>
+    <p class="post-description" itemprop="name">Some thoughts on the need of a database. Maybe you need it, maybe not.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-26 ">Dec 26, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/postgres-how-to-install/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to install Postgres on macOS</h4>
+    <br>
+    <p class="post-description" itemprop="name">Instructions for installing the Postgres DBMS</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-25 ">Dec 25, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/sql-introduction/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to SQL</h4>
+    <br>
+    <p class="post-description" itemprop="name">SQL (Structured Query Language) is a language we use to interact with a Data Base Management System (DBMS).</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-24 ">Dec 24, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/what-is-a-database/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">What is a Database? And a DBMS?</h4>
+    <br>
+    <p class="post-description" itemprop="name">The main properties of a database and of a DBMS.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-23 ">Dec 23, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/relational-databases/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Relational Databases</h4>
+    <br>
+    <p class="post-description" itemprop="name">Relational Databases are the software implementation of the concepts expressed by the theory introduced by the Relational Model.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-22 ">Dec 22, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/relational-algebra/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Relational Algebra</h4>
+    <br>
+    <p class="post-description" itemprop="name">When working with the relational model, we have 2 groups of operations we can use. One of them is relational algebra.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-21 ">Dec 21, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/relational-model/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The Relational Model</h4>
+    <br>
+    <p class="post-description" itemprop="name">The Relational Model is the most popular of the logic data models listed in the Data Models post, and it&#39;s at the basis of SQL databases.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-20 ">Dec 20, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/entity-relationship/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Introduction to the ER Data Model</h4>
+    <br>
+    <p class="post-description" itemprop="name">A simple but comprehensive overview of the entity-relationship data model</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-19 ">Dec 19, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/data-models/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Data models</h4>
+    <br>
+    <p class="post-description" itemprop="name">Data Models define how we give a structure to data, and how data is connected to other data.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-18 ">Dec 18, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/data-information/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Information systems, data and information</h4>
+    <br>
+    <p class="post-description" itemprop="name">The modern world is completely centered around information and data. What&#39;s the difference?</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-17 ">Dec 17, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/database/" class="button lab">Database</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/how-to-disable-eslint-rule/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to disable an ESLint rule</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick tutorial on how to disable an ESLint rule</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-16 ">Dec 16, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/devtools/" class="button devtools">DevTools</a>
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/node-read-csv/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to read a CSV file with Node.js</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick tutorial to read data from a CSV file using Node.js</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-15 ">Dec 15, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      <a href="/tags/node/" class="button node">Node.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/node-write-csv/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to write a CSV file with Node.js</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick tutorial to write an array of data to a CSV file using Node.js</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-14 ">Dec 14, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      <a href="/tags/node/" class="button node">Node.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/designmode/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to make a page editable in the browser</h4>
+    <br>
+    <p class="post-description" itemprop="name">There is a special and pretty secret mode in browsers, called design mode.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-13 ">Dec 13, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/browser/" class="button browser">Web Platform</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/npm-peer-dependencies/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">What are peer dependencies in a Node module?</h4>
+    <br>
+    <p class="post-description" itemprop="name">A simple explanation of the peerDependencies field in the package.json file</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-12 ">Dec 12, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      <a href="/tags/node/" class="button node">Node.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/css-breakpoints/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">What are good CSS Breakpoint values for Responsive Design?</h4>
+    <br>
+    <p class="post-description" itemprop="name">The optimal CSS breakpoint values I use in my projects</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-11 ">Dec 11, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/css/" class="button css">CSS</a>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/javascript-flatten-array/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to flatten an array in JavaScript</h4>
+    <br>
+    <p class="post-description" itemprop="name">A practical guide to flattening JavaScript arrays</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-10 ">Dec 10, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/js/" class="button js">JavaScript</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/javascript-nullish-coalescing/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">JavaScript Nullish Coalescing</h4>
+    <br>
+    <p class="post-description" itemprop="name">An introduction to this new feature of JavaScript: nullish coalescing</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-09 ">Dec 09, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/js/" class="button js">JavaScript</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/be-the-worst-in-your-team/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">You should be the worst developer in your team</h4>
+    <br>
+    <p class="post-description" itemprop="name">Some thoughts on your skill level compared to the people you work with</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-08 ">Dec 08, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/react-fix-dangerouslysetinnerhtml-did-not-match/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to fix the `dangerouslySetInnerHTML` did not match error in React</h4>
+    <br>
+    <p class="post-description" itemprop="name">Find out how I solved the error &#34;`dangerouslySetInnerHTML` did not match&#34;, in a React application</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-07 ">Dec 07, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/react/" class="button react">React</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-cookies/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to get cookies server-side in a Next.js app</h4>
+    <br>
+    <p class="post-description" itemprop="name">Accessing cookies while server-side rendering in Next.js can be harder than you think. Here&#39;s how I solved it.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-06 ">Dec 06, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/how-to-become-full-stack-developer/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to become a Full Stack Developer</h4>
+    <br>
+    <p class="post-description" itemprop="name">A step by step guide to become a Full Stack Developer</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-05 ">Dec 05, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/how-to-render-html-react/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to render HTML in React</h4>
+    <br>
+    <p class="post-description" itemprop="name">Find out how to render an HTML string in the DOM without escaping, using React</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-04 ">Dec 04, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/react/" class="button react">React</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/how-to-replace-whitespace-javascript/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to replace white space inside a string in JavaScript</h4>
+    <br>
+    <p class="post-description" itemprop="name">Find out how to use a regex to replace all white space inside a string using JavaScript</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-03 ">Dec 03, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/js/" class="button js">JavaScript</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/how-prototype-webpage/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How I prototype a Web Page</h4>
+    <br>
+    <p class="post-description" itemprop="name">A quick look at a simple workflow I use to prototype a web page</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-02 ">Dec 02, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/lab/" class="button lab">Lab</a>
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/netlify-fix-trailing-slash-rewrite/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How I fixed the trailing slash in Netlify rewrites</h4>
+    <br>
+    <p class="post-description" itemprop="name">Netlify has this great feature, rewrites, that allow me to create a number of duplicate pages. But there&#39;s a catch.</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-12-01 ">Dec 01, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/services/" class="button services">Services</a>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/react-debugging/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to debug a React application</h4>
+    <br>
+    <p class="post-description" itemprop="name">Some tools you can use to debug your React app when you run into problems</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-30 ">Nov 30, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/react/" class="button react">React</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-api-routes/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to use Next.js API Routes</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn this powerful technique provided by Next.js to create an API endpoint within a Next.js app</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-29 ">Nov 29, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-router/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to use the Next.js Router</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn how to use the `next/router` package to control routes in Next.js</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-28 ">Nov 28, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-app-bundles/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The Next.js App Bundles</h4>
+    <br>
+    <p class="post-description" itemprop="name">How Next.js separates your app code into different bundles, and what do they contain</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-27 ">Nov 27, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-bottom-icon/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">The icons added by Next.js to your app</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn what the icons generated by Next.js in development mode mean</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-26 ">Nov 26, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-wrapper-component/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Adding a wrapper component to your Next.js app</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to use a wrapper component and add a common sidebar or header to it</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-25 ">Nov 25, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-lazy-load-modules/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Lazy loading modules in Next.js</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to lazy load modules in your Next.js app</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-24 ">Nov 24, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-analyze-app-bundle/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">How to analyze the Next.js app bundles</h4>
+    <br>
+    <p class="post-description" itemprop="name">Learn more about what&#39;s in your Next.js app bundles</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-23 ">Nov 23, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-deploy-to-production/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Deploying a Next.js app in production</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to generate the production version of your Next.js app</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-22 ">Nov 22, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-server-client-code/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Next.js: run code only on the server side or client side in Next.js</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to write code that&#39;s only executed on one side of your stack: frontend or backend</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-21 ">Nov 21, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-deploy-on-now/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Deploying a Next.js application on Now</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to use Now to easily and seamlessly deploy your Next.js app</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-20 ">Nov 20, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+      <li class="post-stub" itemprop="blogPost" itemscope="" itemtype="https://schema.org/BlogPosting">
+
+  <a href="https://flaviocopes.com/nextjs-customize-head/" itemprop="url" title="Go to post detail">
+    <h4 class="post-stub-title" itemprop="name">Next.js: populate the head tag with custom tags</h4>
+    <br>
+    <p class="post-description" itemprop="name">How to customize the `head` tag of your Next.js app</p>
+  </a>
+
+  <div class="date-tag">
+    <time style="width: 140px;" class="post-stub-date" datetime=" 2019-11-19 ">Nov 19, 2019</time>
+
+    <div class="tags">
+      
+      
+      
+      
+      
+      
+      
+      <a href="/tags/next/" class="button cli">Next.js</a>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+  </div>
+
+</li>
+      
+    </ol>
+
+    <div class="post-navigation">
+      
+      <nav class="pagination" role="navigation">
+        <span class="page-number">Page 1 of 10</span>
+        
+        
+        <a class="older-posts" href="/page/2/">See older tutorials &rarr;</a>
+        
+      </nav>
+      
+    </div>
+  </article>
+  <aside>
+    <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CE7D653J&placement=flaviocopescom" id="_carbonads_js"></script>
+
+
+
+
+<form onsubmit="window.location = 'https://flaviocopes.com/page/search'; return false">
+<input onclick="window.location = 'https://flaviocopes.com/page/search'"  placeholder="Search a tutorial" aria-label="Search on the website" />
+</form>
+
+
+<h4>Download my 10 free ebooks 📚</h4>
+<ul>
+  <li>📒 <a href="/page/javascript-handbook">JS Handbook</a></li>
+  <li>📗 <a href="/page/vue-handbook">Vue.js Handbook</a></li>
+  <li>📘 <a href="/page/node-handbook">Node.js Handbook</a></li>
+  <li>📙 <a href="/page/express-handbook">Express.js Handbook</a></li>
+  <li>📕 <a href="/page/react-handbook">React Handbook</a></li>
+  <li>📖 <a href="/page/es5-to-esnext">ES5 to ESNext</a></li>
+  <li>📔 <a href="/page/css-handbook">CSS Handbook</a></li>
+  <li>📓 <a href="/page/html-handbook">HTML Handbook</a></li>
+  <li>📙 <a href="/page/svelte-handbook">Svelte Handbook</a></li>
+  <li>📚 <a href="/page/nextjs-handbook">Next.js Handbook</a></li>
+</ul>
+
+<br>
+
+<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channelid="UCt0ya0xGvXu01zfXjNrGqzg" data-layout="full" data-count="default"></div>
+<br><br>
+
+<p>
+  🐦 <a href="https://twitter.com/flaviocopes" target="_blank" rel="noopener">Follow me</a> on Twitter!
+<p>
+
+<p>
+  ✉️ Questions? <a href="mailto:hey@flaviocopes.com">Email me</a>
+<p>
+
+🔥 Get my ebook
+<a href="/book/blog"><b>The Developer's Guide to Having a Successful
+    Blog</b></a>
+</p>
+
+<div class="tags footer-tags">
+  <a href="/tags/c-language/" class="button browser">C</a>
+<a href="/tags/computers/" class="button react">Computers</a>
+<a href="/tags/cli/" class="button cli">CLI</a>
+<a href="/tags/css/" class="button css">CSS</a>
+<a href="/tags/database/" class="button lab">Database</a>
+<a href="/tags/devtools/" class="button devtools">DevTools</a>
+<a href="/tags/electronics/" class="button vue">Electronics</a>
+<a href="/tags/express/" class="button express">Express</a>
+<a href="/tags/git/" class="button git">Git</a>
+<a href="/tags/go/" class="button go">Go</a>
+<a href="/tags/graphql/" class="button graphql">GraphQL</a>
+<a href="/tags/html/" class="button html">HTML</a>
+<a href="/tags/js/" class="button js">JavaScript</a>
+<a href="/tags/lab/" class="button lab">Lab</a>
+<a href="/tags/network/" class="button network">Network</a>
+<a href="/tags/next/" class="button cli">Next.js</a>
+<a href="/tags/node/" class="button node">Node.js</a>
+
+<a href="/tags/react/" class="button react">React</a>
+<a href="/tags/services/" class="button services">Services</a>
+<a href="/tags/svelte/" class="button svelte">Svelte</a>
+<a href="/tags/vue/" class="button vue">Vue.js</a>
+<a href="/tags/browser/" class="button browser">Web Platform</a>
+
+
+
+</div>
+
+
+<p>
+  <small>
+    <a class="" target="_blank" href="https://flaviocopes.com/index.xml" style="text-decoration: underline">
+      RSS Feed
+    </a>
+  </small>
+</p>
+
+
+<small>
+  &copy; 2020 Flavio Copes
+</small>
+  </aside>
+
+</div>
+
+<div id="topbar">
+  🔥 NEW! Get my ebook
+  <a href="/book/blog" style="color: white; text-decoration: underline"
+    ><b>The Developer's Guide to Having a Successful Blog</b></a
+  >
+  🔥
+</div>
+
+
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	if (window.sessionStorage) {
+		var GA_SESSION_STORAGE_KEY = 'ga:clientId';
+		ga('create', 'UA-1739509-40', {
+	    'storage': 'none',
+	    'clientId': sessionStorage.getItem(GA_SESSION_STORAGE_KEY)
+	   });
+	   ga(function(tracker) {
+	    sessionStorage.setItem(GA_SESSION_STORAGE_KEY, tracker.get('clientId'));
+	   });
+   }
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+
+
+</body>
+</html>
